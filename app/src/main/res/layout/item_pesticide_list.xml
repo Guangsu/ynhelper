@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/width_2_80">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/width_70_80"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/font_24"
+        android:text="国务院:大力推进能源结构战略调整"/>
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="@dimen/width_40_80"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/tv_name"
+        android:layout_alignLeft="@id/tv_name"
+        android:textSize="@dimen/font_14"
+        android:layout_marginTop="@dimen/height_1_80"
+        android:text="国务院:大力推进能源结构战略调整"/>
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="@dimen/width_40_80"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/tv_name"
+        android:layout_toRightOf="@id/tv_company"
+        android:layout_marginLeft="@dimen/width_2_80"
+        android:textSize="@dimen/font_14"
+        android:layout_marginTop="@dimen/height_1_80"
+        android:text="国务院:大力推进能源结构战略调整"/>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_8_80"
+    android:padding="@dimen/width_2_80">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="@dimen/width_52_80"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxLines="2"
+        android:text="国务院:大力推进能源结构战略调整"
+        android:textSize="@dimen/font_24" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/height_1_80"
+        android:text="2015-12-12 00:00"
+        android:textSize="@dimen/font_16" />
+
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="@dimen/width_22_80"
+        android:layout_height="@dimen/width_18_80"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
